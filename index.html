@@ -158,10 +158,8 @@
               <h4>skills that must be needed</h4>
               <ul>
                 <li>Node JS</li>
-                <li>Database</li>
+                <li>API</li>
                 <li>Mysql</li>
-                <li>Rest Api</li>
-                <li>Algoritma</li>
               </ul>
             </div>
           </div>
@@ -189,8 +187,7 @@
               <h4>skills that must be needed</h4>
               <ul>
                 <li>Networking</li>
-                <li>System Operation</li>
-                <li>Awareness</li>
+                <li>Operating System</li>
                 <li>Tools Hacking</li>
                 <li>Python</li>
               </ul>
@@ -209,22 +206,27 @@
           action="https://formspree.io/f/mqkrnlyz"
           method="post"
         >
-          <div>
-            <input type="text" placeholder="Name" name="name" />
+          <div class="title-text">
+            <h2>Message Me</h2>
           </div>
           <div>
-            <input type="email" placeholder="Email" name="email" />
+            <input type="text" placeholder="Name" name="name" id="name" />
+          </div>
+          <div>
+            <input type="email" placeholder="Email" name="email" id="email" />
           </div>
           <div>
             <textarea
-              name="massage"
-              id="massage"
+              name="message"
+              id="message"
               cols="30"
               rows="10"
             ></textarea>
           </div>
           <div>
-            <button class="btn-submit" type="submit">Send Massage</button>
+            <button class="btn-submit" type="submit" id="send-massage">
+              Send Massage
+            </button>
           </div>
         </form>
       </div>
