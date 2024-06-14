@@ -182,6 +182,7 @@ nav ul a:hover {
 
 .grid-about {
   width: 19rem;
+  height: 20rem;
   background-color: #88cfc7;
   display: flex;
   flex-direction: column;
@@ -219,6 +220,11 @@ nav ul a:hover {
 #massage {
   background-color: #88cfc7;
   padding: 3rem 0;
+}
+
+#massage .title-text {
+  text-align: center;
+  margin: 1rem;
 }
 
 .container-massage {
