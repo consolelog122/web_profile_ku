@@ -387,9 +387,10 @@ footer .head {
   }
   /* home */
   /* footer */
-  footer{
-    margin-bottom: 0px;
-}
+    footer {
+    bottom: 0;
+    left: 0;
+  }
 
 @media screen and (max-width: 576px) {
   .menu-toggle {
